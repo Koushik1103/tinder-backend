@@ -7,7 +7,7 @@ import cors from "cors";
 const app = express();
 const port = process.env.PORT || 8001;
 const connection_uri =
-  "mongodb+srv://admin:zwpiEMj0bJjjXSV4@cluster0.j9bokzd.mongodb.net/?retryWrites=true&w=majority";
+  "insert uri";
 
 //Middlewares
 app.use(express.json());
